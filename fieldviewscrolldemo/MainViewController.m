@@ -250,7 +250,12 @@
     [currentTextView release];
     currentTextView = textView;
     [currentTextView retain];
-
+    
+    // Edge Case
+    // Save the currentTextViewRect since it is possible to go directly from 
+    // textViewDidEndEditing to textViewDidBeginEditing; we need it to be able
+    // to restore the currentTextView.frame if necessary
+    currentTextViewRect = currentTextView.frame;
 }
 
 - (void)textViewDidEndEditing:(UITextView *)textView {
