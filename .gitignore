@@ -1,0 +1,11 @@
+build/*
+
+# Don't ignore the pbxproj within the xcodeproj folder
+!*.xcodeproj/project.pbxproj
+
+# Ignore OSX-specific files
+.DS_Store
+
+#ignore XCode 4 
+*.xcodeproj/project.xcworkspace/*
+*.xcodeproj/xcuserdata/*

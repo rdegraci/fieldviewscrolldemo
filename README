@@ -1,0 +1,8 @@
+XCode 4.0.1
+iOS SDK 4.3
+
+This project shows how to effectively scroll a scrollView that has UITextFields and UITextViews so that the keyboard does not cover the UITextField or UITextView. If a UITextView is too large to fit in the remaining view, after the keyboard is displayed then the textView is resized to fit.  To move from textView to textField, simply scroll.
+
+
+Rodney Degracia
+
