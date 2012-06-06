@@ -208,6 +208,7 @@
 		B32ECDA213A00289002053BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Venture Intellectual LLC";
 			};
 			buildConfigurationList = B32ECDA513A00289002053BA /* Build configuration list for PBXProject "fieldviewscrolldemo" */;
@@ -365,7 +366,9 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fieldviewscrolldemo/fieldviewscrolldemo-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "fieldviewscrolldemo/fieldviewscrolldemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -378,7 +381,9 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fieldviewscrolldemo/fieldviewscrolldemo-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "fieldviewscrolldemo/fieldviewscrolldemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -396,6 +401,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fieldviewscrolldemoTests/fieldviewscrolldemoTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "fieldviewscrolldemoTests/fieldviewscrolldemoTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -418,6 +424,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fieldviewscrolldemoTests/fieldviewscrolldemoTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "fieldviewscrolldemoTests/fieldviewscrolldemoTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -448,6 +455,7 @@
 				B32ECDE813A0028A002053BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B32ECDE913A0028A002053BA /* Build configuration list for PBXNativeTarget "fieldviewscrolldemoTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +464,7 @@
 				B32ECDEB13A0028A002053BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
